@@ -1,0 +1,11 @@
+<h1>Nike Sneakers</h1>
+<p>This is a direct list of the top selling sneakers on Nike's Website
+listed in order of sales popularity</p>
+<!-- <%= image_tag('nike_image.jpg') %> -->
+
+
+<ul>
+<% @results.each do |sneaker| %>
+    <li><%= sneaker %></li>
+<% end %>
+</ul>
